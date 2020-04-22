@@ -8,6 +8,12 @@ import org.testng.annotations.Test;
 
 public class Annotations {
 	
+	@Test
+	public void log()
+	{
+		System.out.println("Log method later Added");
+	}
+	
 	@BeforeTest
 	public void beforeTest()
 	{
